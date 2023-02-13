@@ -30,8 +30,8 @@ jobs:
     - run: npm run build
     - run: npm run export 
     
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        branch: gh-pages
-        folder: out
+    - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: out
